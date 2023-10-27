@@ -74,8 +74,8 @@
 
 | From Table Name | To Table Name | Description |
 | --------------- | ------------- | ----------- |
-| [SAP_BOM_Header](/@hackmd-andri/CDS-DBStruc-PLM_IMDB.md.md#SAP_BOM_Header)  | [M_BOM_HEADER](/@hackmd-andri/CDS-DBStruc-VCS_DB.md#M_BOM_HEADER)  | 基本BOM表頭  :heavy_check_mark: |
-| [SAP_BOM_Detail](/@hackmd-andri/CDS-DBStruc-PLM_IMDB.md.md#SAP_BOM_Detail)  | [M_BOM_DETAIL](/@hackmd-andri/CDS-DBStruc-VCS_DB.md#M_BOM_DETAIL)  | 基本BOM表身  :heavy_check_mark: |
+| [SAP_BOM_Header](/@hackmd-andri/CDS-DBStruc-PLM_IMDB.md#SAP_BOM_Header)  | [M_BOM_HEADER](/@hackmd-andri/CDS-DBStruc-VCS_DB.md#M_BOM_HEADER)  | 基本BOM表頭  :heavy_check_mark: |
+| [SAP_BOM_Detail](/@hackmd-andri/CDS-DBStruc-PLM_IMDB.md#SAP_BOM_Detail)  | [M_BOM_DETAIL](/@hackmd-andri/CDS-DBStruc-VCS_DB.md#M_BOM_DETAIL)  | 基本BOM表身  :heavy_check_mark: |
 
 #### 備註：
 *This release has no modifications to this part.*
