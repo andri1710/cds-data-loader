@@ -74,8 +74,8 @@
 
 | From Table Name | To Table Name | Description |
 | --------------- | ------------- | ----------- |
-| [SAP_BOM_Header](/@hackmd-andri/CDS-DBStruc-PLM_IMDB#SAP_BOM_Header)  | [M_BOM_HEADER](/@hackmd-andri/CDS-DBStruc-VCS_DB#M_BOM_HEADER)  | 基本BOM表頭  :heavy_check_mark: |
-| [SAP_BOM_Detail](/@hackmd-andri/CDS-DBStruc-PLM_IMDB#SAP_BOM_Detail)  | [M_BOM_DETAIL](/@hackmd-andri/CDS-DBStruc-VCS_DB#M_BOM_DETAIL)  | 基本BOM表身  :heavy_check_mark: |
+| [SAP_BOM_Header](/@hackmd-andri/CDS-DBStruc-PLM_IMDB.md.md#SAP_BOM_Header)  | [M_BOM_HEADER](/@hackmd-andri/CDS-DBStruc-VCS_DB.md#M_BOM_HEADER)  | 基本BOM表頭  :heavy_check_mark: |
+| [SAP_BOM_Detail](/@hackmd-andri/CDS-DBStruc-PLM_IMDB.md.md#SAP_BOM_Detail)  | [M_BOM_DETAIL](/@hackmd-andri/CDS-DBStruc-VCS_DB.md#M_BOM_DETAIL)  | 基本BOM表身  :heavy_check_mark: |
 
 #### 備註：
 *This release has no modifications to this part.*
@@ -85,7 +85,7 @@
 
 | From Table Name | To Table Name | Description         |
 | --------------- | ------------- | ------------------- |
-| [All_Material](/@hackmd-andri/CDS-DBStruc-SAP_IMDB#All_Material)    | [M_MATERIAL](/@hackmd-andri/CDS-DBStruc-VCS_DB#M_MATERIAL)    | 內部材料主檔          :heavy_check_mark: |
+| [All_Material](/@hackmd-andri/CDS-DBStruc-SAP_IMDB.md#All_Material)    | [M_MATERIAL](/@hackmd-andri/CDS-DBStruc-VCS_DB.md#M_MATERIAL)    | 內部材料主檔          :heavy_check_mark: |
 
 #### 備註：
 * `≈202308` 若Generic_Material=" "時，填入MaterialNo。
@@ -108,8 +108,8 @@
 
 | From Table Name     | To Table Name     | Description |
 | ------------------- | ----------------- | ----------- |
-| [All_Supplier](/@hackmd-andri/CDS-DBStruc-SAP_IMDB#All_Supplier)               | [M_SUPPLIER](/@hackmd-andri/CDS-DBStruc-VCS_DB#M_SUPPLIER)               | 廠商主檔     :heavy_check_mark: |
-| [All_Supplier_Detail](/@hackmd-andri/CDS-DBStruc-SAP_IMDB#All_Supplier_Detail) | [M_SUPPLIER_DETAIL](/@hackmd-andri/CDS-DBStruc-VCS_DB#M_SUPPLIER_DETAIL) | 廠商明細     :heavy_check_mark: |
+| [All_Supplier](/@hackmd-andri/CDS-DBStruc-SAP_IMDB.md#All_Supplier)               | [M_SUPPLIER](/@hackmd-andri/CDS-DBStruc-VCS_DB.md#M_SUPPLIER)               | 廠商主檔     :heavy_check_mark: |
+| [All_Supplier_Detail](/@hackmd-andri/CDS-DBStruc-SAP_IMDB.md#All_Supplier_Detail) | [M_SUPPLIER_DETAIL](/@hackmd-andri/CDS-DBStruc-VCS_DB.md#M_SUPPLIER_DETAIL) | 廠商明細     :heavy_check_mark: |
 
 #### 備註：
 *This release has no modifications to this part.*
@@ -120,10 +120,10 @@
 
 | From Table Name           | To Table Name                | Description  |
 | ------------------------- | ---------------------------- | ------------ |
-| [All_Purchase_Order_Header](/@hackmd-andri/CDS-DBStruc-SAP_IMDB#All_Purchase_Order_Header) | [T_PURCHASE](/@hackmd-andri/CDS-DBStruc-VCS_DB#T_PURCHASE)                                                                  | 採購主檔      :heavy_check_mark: |
-| [All_Purchase_Order_Item](/@hackmd-andri/CDS-DBStruc-SAP_IMDB#All_Purchase_Order_Item)     | [T_PURCHASE_DETAIL](/@hackmd-andri/CDS-DBStruc-VCS_DB#T_PURCHASE_DETAIL)                                                    | 採購明細      :heavy_check_mark: |
-| [All_Component](/@hackmd-andri/CDS-DBStruc-SAP_IMDB#All_Component)                         | [T_PURCHASE_SUBCONT](/@hackmd-andri/CDS-DBStruc-VCS_DB#T_PURCHASE_SUBCONT)                                                  | 採購原件明細   :heavy_check_mark: |
-| [All_Delivery_Schedule](/@hackmd-andri/CDS-DBStruc-SAP_IMDB#All_Delivery_Schedule)         | [T_PURCHASE_DELIVERY_SCHEDULE](/@hackmd-andri/CDS-DBStruc-VCS_DB#T_PURCHASE_DELIVERY_SCHEDULE) | 採購單送貨明細 :heavy_check_mark: |
+| [All_Purchase_Order_Header](/@hackmd-andri/CDS-DBStruc-SAP_IMDB.md#All_Purchase_Order_Header) | [T_PURCHASE](/@hackmd-andri/CDS-DBStruc-VCS_DB.md#T_PURCHASE)                                                                  | 採購主檔      :heavy_check_mark: |
+| [All_Purchase_Order_Item](/@hackmd-andri/CDS-DBStruc-SAP_IMDB.md#All_Purchase_Order_Item)     | [T_PURCHASE_DETAIL](/@hackmd-andri/CDS-DBStruc-VCS_DB.md#T_PURCHASE_DETAIL)                                                    | 採購明細      :heavy_check_mark: |
+| [All_Component](/@hackmd-andri/CDS-DBStruc-SAP_IMDB.md#All_Component)                         | [T_PURCHASE_SUBCONT](/@hackmd-andri/CDS-DBStruc-VCS_DB.md#T_PURCHASE_SUBCONT)                                                  | 採購原件明細   :heavy_check_mark: |
+| [All_Delivery_Schedule](/@hackmd-andri/CDS-DBStruc-SAP_IMDB.md#All_Delivery_Schedule)         | [T_PURCHASE_DELIVERY_SCHEDULE](/@hackmd-andri/CDS-DBStruc-VCS_DB.md#T_PURCHASE_DELIVERY_SCHEDULE) | 採購單送貨明細 :heavy_check_mark: |
 
 #### 備註：
 *This release has no modifications to this part.*
@@ -133,7 +133,7 @@
 
 | From Table Name | To Table Name | Description             |
 | --------------- | ------------- | ----------------------- |
-| [CDS_Inbound_DN](/@hackmd-andri/CDS-DBStruc-SAP_IMDB#CDS_Inbound_DN)  | [T_INBOUND_DN](/@hackmd-andri/CDS-DBStruc-VCS_DB#T_INBOUND_DN)  | 入廠的運送明細(廠商出貨名細) :heavy_check_mark: |
+| [CDS_Inbound_DN](/@hackmd-andri/CDS-DBStruc-SAP_IMDB.md#CDS_Inbound_DN)  | [T_INBOUND_DN](/@hackmd-andri/CDS-DBStruc-VCS_DB.md#T_INBOUND_DN)  | 入廠的運送明細(廠商出貨名細) :heavy_check_mark: |
 
 #### 備註：
 * `≈202309` 若InboundDN_No的第一碼為零，自動去掉。
@@ -151,9 +151,9 @@
 
 | From Table Name             | To Table Name | Description      |
 | --------------------------- | ------------- | ---------------- |
-| [CDS_Receipt_Invoice_Header](/@hackmd-andri/CDS-DBStruc-SAP_IMDB#CDS_Receipt_Invoice_Header)   | ???           | 發票驗證文件表頭    |
-| [CDS_Receipt_Invoice_Detail](/@hackmd-andri/CDS-DBStruc-SAP_IMDB#CDS_Receipt_Invoice_Detail)   | ???           | 發票驗證文件表身    |
-| [CDS_Receipt_Invoice_Account](/@hackmd-andri/CDS-DBStruc-SAP_IMDB#CDS_Receipt_Invoice_Account) | ???           | 發票驗證文件總帳科目 |
+| [CDS_Receipt_Invoice_Header](/@hackmd-andri/CDS-DBStruc-SAP_IMDB.md#CDS_Receipt_Invoice_Header)   | ???           | 發票驗證文件表頭    |
+| [CDS_Receipt_Invoice_Detail](/@hackmd-andri/CDS-DBStruc-SAP_IMDB.md#CDS_Receipt_Invoice_Detail)   | ???           | 發票驗證文件表身    |
+| [CDS_Receipt_Invoice_Account](/@hackmd-andri/CDS-DBStruc-SAP_IMDB.md#CDS_Receipt_Invoice_Account) | ???           | 發票驗證文件總帳科目 |
 
 #### 備註：
 *This release has no modifications to this part.*
@@ -163,9 +163,9 @@
 
 | From Table Name       | To Table Name | Description          |
 | --------------------- | ------------- | -------------------- |
-| [CDS_Stock_At_Factory](/@hackmd-andri/CDS-DBStruc-SAP_IMDB#CDS_Stock_At_Factory)   | ???           | 廠內庫存               |
-| [CDS_Stock_At_Supplier](/@hackmd-andri/CDS-DBStruc-SAP_IMDB#CDS_Stock_At_Supplier) | ???           | 供應商庫存(委外加工原料) |
-| [CDS_SO_Stock](/@hackmd-andri/CDS-DBStruc-SAP_IMDB#CDS_SO_Stock)                   | ???           | 訂單庫存               |
+| [CDS_Stock_At_Factory](/@hackmd-andri/CDS-DBStruc-SAP_IMDB.md#CDS_Stock_At_Factory)   | ???           | 廠內庫存               |
+| [CDS_Stock_At_Supplier](/@hackmd-andri/CDS-DBStruc-SAP_IMDB.md#CDS_Stock_At_Supplier) | ???           | 供應商庫存(委外加工原料) |
+| [CDS_SO_Stock](/@hackmd-andri/CDS-DBStruc-SAP_IMDB.md#CDS_SO_Stock)                   | ???           | 訂單庫存               |
 
 #### 備註：
 *This release has no modifications to this part.*
@@ -175,7 +175,7 @@
 
 | From Table Name       | To Table Name | Description             |
 | --------------------- | ------------- | ----------------------- |
-| [CDS_Material_Movement](/@hackmd-andri/CDS-DBStruc-SAP_IMDB#CDS_Material_Movement) | ???           | 物料文件                 |
+| [CDS_Material_Movement](/@hackmd-andri/CDS-DBStruc-SAP_IMDB.md#CDS_Material_Movement) | ???           | 物料文件                 |
 
 #### 備註：
 *This release has no modifications to this part.*
@@ -185,8 +185,8 @@
 
 | From Table Name   | To Table Name   | Description  |
 | ----------------- | --------------- | ------------ |
-| [CDS_PO_BOM](/@hackmd-andri/CDS-DBStruc-SAP_IMDB#CDS_PO_BOM)               | [T_PO_BOM](/@hackmd-andri/CDS-DBStruc-VCS_DB#T_PO_BOM)               | PO BOM主檔    :heavy_check_mark:|
-| [CDS_PO_BOM_Detail](/@hackmd-andri/CDS-DBStruc-SAP_IMDB#CDS_PO_BOM_Detail) | [T_PO_BOM_DETAIL](/@hackmd-andri/CDS-DBStruc-VCS_DB#T_PO_BOM_DETAIL) | PO BOM 明細   :heavy_check_mark:|
+| [CDS_PO_BOM](/@hackmd-andri/CDS-DBStruc-SAP_IMDB.md#CDS_PO_BOM)               | [T_PO_BOM](/@hackmd-andri/CDS-DBStruc-VCS_DB.md#T_PO_BOM)               | PO BOM主檔    :heavy_check_mark:|
+| [CDS_PO_BOM_Detail](/@hackmd-andri/CDS-DBStruc-SAP_IMDB.md#CDS_PO_BOM_Detail) | [T_PO_BOM_DETAIL](/@hackmd-andri/CDS-DBStruc-VCS_DB.md#T_PO_BOM_DETAIL) | PO BOM 明細   :heavy_check_mark:|
 
 #### 特殊拋轉邏輯：
 * `≈2023/08/24`
@@ -207,9 +207,9 @@ T_PO_BOM_DETAIL 先檢查是否有資料，若已存在，先刪除後再新增�
 
 | From Table Name | To Table Name | Description     |
 | --------------- | ------------- | --------------- |
-| [CDS_WOGroup](/@hackmd-andri/CDS-DBStruc-SAP_IMDB#CDS_WOGroup)      | ???           | 工單群組Outbound |
-| [CDS_WOHeader](/@hackmd-andri/CDS-DBStruc-SAP_IMDB#CDS_WOHeader)    | ???           | 工單表頭Outbound |
-| [CDS_WODetail](/@hackmd-andri/CDS-DBStruc-SAP_IMDB#CDS_WODetail)    | ???           | 工單元件Outbound |
+| [CDS_WOGroup](/@hackmd-andri/CDS-DBStruc-SAP_IMDB.md#CDS_WOGroup)      | ???           | 工單群組Outbound |
+| [CDS_WOHeader](/@hackmd-andri/CDS-DBStruc-SAP_IMDB.md#CDS_WOHeader)    | ???           | 工單表頭Outbound |
+| [CDS_WODetail](/@hackmd-andri/CDS-DBStruc-SAP_IMDB.md#CDS_WODetail)    | ???           | 工單元件Outbound |
 
 #### 備註：
 *This release has no modifications to this part.*
@@ -219,7 +219,7 @@ T_PO_BOM_DETAIL 先檢查是否有資料，若已存在，先刪除後再新增�
 
 | From Table Name     | To Table Name | Description |
 | ------------------- | ------------- | ----------- |
-| [CDS_WO_Matl_Issuing](/@hackmd-andri/CDS-DBStruc-SAP_IMDB#CDS_WO_Matl_Issuing) | ???           | 發料資訊傳出  |
+| [CDS_WO_Matl_Issuing](/@hackmd-andri/CDS-DBStruc-SAP_IMDB.md#CDS_WO_Matl_Issuing) | ???           | 發料資訊傳出  |
 
 #### 備註：
 *This release has no modifications to this part.*
@@ -229,7 +229,7 @@ T_PO_BOM_DETAIL 先檢查是否有資料，若已存在，先刪除後再新增�
 
 | From Table Name | To Table Name | Description   |
 | --------------- | ------------- | ------------- |
-| [CDS_FGReceipt](/@hackmd-andri/CDS-DBStruc-SAP_IMDB#CDS_FGReceipt)   | ???           | 成品入庫資訊傳出 |
+| [CDS_FGReceipt](/@hackmd-andri/CDS-DBStruc-SAP_IMDB.md#CDS_FGReceipt)   | ???           | 成品入庫資訊傳出 |
 
 #### 備註：
 *This release has no modifications to this part.*
@@ -239,11 +239,11 @@ T_PO_BOM_DETAIL 先檢查是否有資料，若已存在，先刪除後再新增�
 
 | From Table Name           | To Table Name           | Description |
 | ------------------------- | ----------------------- | ----------- |
-| [CDS_Sales_Order_Header](/@hackmd-andri/CDS-DBStruc-SAP_IMDB#CDS_Sales_Order_Header)       | [T_SALES_ORDER](/@hackmd-andri/CDS-DBStruc-VCS_DB#T_SALES_ORDER)                     | 訂單主檔      :heavy_check_mark:|
-| [CDS_Sales_Order_Detail](/@hackmd-andri/CDS-DBStruc-SAP_IMDB#CDS_Sales_Order_Detail)       | [T_SALES_ORDER_DETAIL](/@hackmd-andri/CDS-DBStruc-VCS_DB#T_SALES_ORDER_DETAIL)       | 訂單明細      :heavy_check_mark:|
-| [CDS_Carton_Arrange_Header](/@hackmd-andri/CDS-DBStruc-SAP_IMDB#CDS_Carton_Arrange_Header) | [T_CARTON_ARRANGE_HEADER](/@hackmd-andri/CDS-DBStruc-VCS_DB#T_CARTON_ARRANGE_HEADER) | 外箱編列主檔  :heavy_check_mark:|
-| [CDS_Carton_Arrange_Detail](/@hackmd-andri/CDS-DBStruc-SAP_IMDB#CDS_Carton_Arrange_Detail) | [T_CARTON_ARRANGE_DETAIL](/@hackmd-andri/CDS-DBStruc-VCS_DB#T_CARTON_ARRANGE_DETAIL) | 外箱編列明細  :heavy_check_mark:|
-| [CDS_FG_Write_Off_Result](/@hackmd-andri/CDS-DBStruc-SAP_IMDB#CDS_FG_Write_Off_Result)     | [T_FG_WRITE_OFF_RESULT](/@hackmd-andri/CDS-DBStruc-VCS_DB#T_FG_WRITE_OFF_RESULT)     | 重包裝明細    :heavy_check_mark:|
+| [CDS_Sales_Order_Header](/@hackmd-andri/CDS-DBStruc-SAP_IMDB.md#CDS_Sales_Order_Header)       | [T_SALES_ORDER](/@hackmd-andri/CDS-DBStruc-VCS_DB.md#T_SALES_ORDER)                     | 訂單主檔      :heavy_check_mark:|
+| [CDS_Sales_Order_Detail](/@hackmd-andri/CDS-DBStruc-SAP_IMDB.md#CDS_Sales_Order_Detail)       | [T_SALES_ORDER_DETAIL](/@hackmd-andri/CDS-DBStruc-VCS_DB.md#T_SALES_ORDER_DETAIL)       | 訂單明細      :heavy_check_mark:|
+| [CDS_Carton_Arrange_Header](/@hackmd-andri/CDS-DBStruc-SAP_IMDB.md#CDS_Carton_Arrange_Header) | [T_CARTON_ARRANGE_HEADER](/@hackmd-andri/CDS-DBStruc-VCS_DB.md#T_CARTON_ARRANGE_HEADER) | 外箱編列主檔  :heavy_check_mark:|
+| [CDS_Carton_Arrange_Detail](/@hackmd-andri/CDS-DBStruc-SAP_IMDB.md#CDS_Carton_Arrange_Detail) | [T_CARTON_ARRANGE_DETAIL](/@hackmd-andri/CDS-DBStruc-VCS_DB.md#T_CARTON_ARRANGE_DETAIL) | 外箱編列明細  :heavy_check_mark:|
+| [CDS_FG_Write_Off_Result](/@hackmd-andri/CDS-DBStruc-SAP_IMDB.md#CDS_FG_Write_Off_Result)     | [T_FG_WRITE_OFF_RESULT](/@hackmd-andri/CDS-DBStruc-VCS_DB.md#T_FG_WRITE_OFF_RESULT)     | 重包裝明細    :heavy_check_mark:|
 
 #### 備註：
 *This release has no modifications to this part.*
@@ -253,8 +253,8 @@ T_PO_BOM_DETAIL 先檢查是否有資料，若已存在，先刪除後再新增�
 
 | From Table Name     | To Table Name     | Description |
 | ------------------- | ----------------- | ----------- |
-| [CDS_Shipment_Header](/@hackmd-andri/CDS-DBStruc-SAP_IMDB#CDS_Shipment_Header) | [T_S<HIPMENT](/@hackmd-andri/CDS-DBStruc-VCS_DB#T_SHIPMENT)               | 出貨主檔      :heavy_check_mark:|
-| [CDS_Shipment_Detail](/@hackmd-andri/CDS-DBStruc-SAP_IMDB#CDS_Shipment_Detail) | [T_SHIPMENT_DETAIL](/@hackmd-andri/CDS-DBStruc-VCS_DB#T_SHIPMENT_DETAIL) | 出貨明細      :heavy_check_mark:|
+| [CDS_Shipment_Header](/@hackmd-andri/CDS-DBStruc-SAP_IMDB.md#CDS_Shipment_Header) | [T_S<HIPMENT](/@hackmd-andri/CDS-DBStruc-VCS_DB.md#T_SHIPMENT)               | 出貨主檔      :heavy_check_mark:|
+| [CDS_Shipment_Detail](/@hackmd-andri/CDS-DBStruc-SAP_IMDB.md#CDS_Shipment_Detail) | [T_SHIPMENT_DETAIL](/@hackmd-andri/CDS-DBStruc-VCS_DB.md#T_SHIPMENT_DETAIL) | 出貨明細      :heavy_check_mark:|
 
 #### 特殊拋轉邏輯：
 * `≈2023/10/18`
